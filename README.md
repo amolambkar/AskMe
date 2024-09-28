@@ -33,20 +33,20 @@ This project is a Retrieval-Augmented Generation (RAG) application that allows u
    ```
    python -m venv venv
    source venv/bin/activate
-  ```
+   ```
 
 3. **Install the required packages:**
 
    ```
    pip install -r requirements.txt
-  ```
+   ```
 
 
 4. **Run the Streamlit app:**
 
    ```
    streamlit run app.py
-  ```
+   ```
 
 ## WorkFlow
 
@@ -65,14 +65,14 @@ This project is a Retrieval-Augmented Generation (RAG) application that allows u
                v
     +---------------------+
     |   PDF Chunking      |
-    |   (pdf_processor.py)|
+    |   (process.py)|
     +----------+----------+
                |
                | Generate Chunks
                v
     +---------------------+
     |   Embedding Module   |
-    |   (embedder.py)     |
+    |   (embed.py)     |
     +----------+----------+
                |
                | Store Embeddings
@@ -85,7 +85,7 @@ This project is a Retrieval-Augmented Generation (RAG) application that allows u
                v
     +---------------------+
     |   QA System         |
-    |   (qa_system.py)    |
+    |   (qa.py)    |
     +----------+----------+
                |
                | Generate Answer
