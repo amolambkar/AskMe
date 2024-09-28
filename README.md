@@ -19,6 +19,9 @@ This project is a Retrieval-Augmented Generation (RAG) application that allows u
 - **Qdrant**: For vector storage and retrieval.
 - **Python**: The primary programming language.
 
+## Example
+![AskMe](example/AskMeExample.png)
+
 ## Installation
 
 1. **Clone the repository:**
