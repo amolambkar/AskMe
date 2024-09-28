@@ -45,7 +45,13 @@ This project is a Retrieval-Augmented Generation (RAG) application that allows u
    ```
 
 
-4. **Run the Streamlit app:**
+4. **Create .env using .env.sample:**
+
+   ```
+   add required cred to .env
+   ```
+
+5. **Run the Streamlit app:**
 
    ```
    streamlit run app.py
